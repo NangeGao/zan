@@ -11,4 +11,5 @@
     </view>
   </view>
   <button type="primary" style="width: 80%" bindtap="bindSubmit"> 确定 </button>
+  <view class="tips">【免责声明】本小程序仅供娱乐，可自由使用，后果自负</view>
 </view>

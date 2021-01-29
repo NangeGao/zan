@@ -48,3 +48,12 @@
 .placeholder {
   font-size: 80%;
 }
+
+.tips {
+  position: fixed;
+  bottom: 10rpx;
+  width: 100%;
+  font-size: 24rpx;
+  color: #ccc;
+  text-align: center;
+}
