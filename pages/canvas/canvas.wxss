@@ -1,0 +1,36 @@
+#wrap {
+  padding-bottom: 63px;
+}
+#box {
+	background: #f7f7f7;
+	margin: 0 3%;
+  min-height: 100rpx;
+  padding: 24rpx 0 4rpx 70rpx;
+  position: relative;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+}
+.heart {
+	position: absolute;
+  width: 24rpx;
+  height: 23rpx;
+  left: 24rpx;
+  top: 44rpx;
+	background-size: 50%;
+}
+#box div {
+	margin-top: -28px;
+}
+.img {
+  width: 66rpx;
+  height: 66rpx;
+  display: inline-block;
+  margin: 0 14rpx 14rpx 0;
+  vertical-align: middle;
+  border-radius: 6rpx;
+}
+#input {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

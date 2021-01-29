@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="wrap">
+    <view class="image_wrap" wx:if="{{uploadFile.path}}">
+      <button type="primary" bindtap="chooseImage"> 重新上传 </button>
+      <image src="{{uploadFile.path}}" mode="widthFix"></image>
+    </view>
+    <button id="upload" bindtap="chooseImage" wx:else> 点击上传朋友圈截图 </button>
+    <view class="number_wrap">
+      <input id="number" type="number" placeholder="输入需要的点赞数量(最多200)" placeholder-class='placeholder' bindinput="bindInput"></input>
+    </view>
+  </view>
+  <button type="primary" style="width: 80%" bindtap="bindSubmit"> 确定 </button>
+</view>
