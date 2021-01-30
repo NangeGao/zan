@@ -48,9 +48,9 @@ Page({
       })
       return;
     }
-    if (parseInt(this.data.num) > 200) {
+    if (parseInt(this.data.num) > 120) {
       wx.showToast({
-        title: '最大点赞数量为200',
+        title: '最大点赞数量为120',
         icon: 'none',
         duration: 2000
       })

@@ -7,9 +7,9 @@
     </view>
     <button id="upload" bindtap="chooseImage" wx:else> 点击上传朋友圈截图 </button>
     <view class="number_wrap">
-      <input id="number" type="number" placeholder="输入需要的点赞数量(最多200)" placeholder-class='placeholder' bindinput="bindInput"></input>
+      <input id="number" type="number" placeholder="输入需要的点赞数量(最多120)" placeholder-class='placeholder' bindinput="bindInput"></input>
     </view>
   </view>
   <button type="primary" style="width: 80%" bindtap="bindSubmit"> 确定 </button>
-  <view class="tips">【免责声明】本小程序仅供娱乐，可自由使用，后果自负</view>
+  <view class="tips">【免责声明】随便使用，仅供娱乐，后果自负</view>
 </view>

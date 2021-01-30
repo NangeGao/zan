@@ -3,7 +3,7 @@
   <image src="{{screenshot}}" mode="widthFix" style='width: 100%'></image>
   <view id="box">
     <image class="heart" src="icon_heart.png"></image>
-    <image class="img" wx:for="{{headers}}" wx:key="{{index}}" src="{{'images/'+item.img}}"></image>
+    <image class="img" wx:for="{{headers}}" wx:key="index" src="{{'images/'+item.img}}"></image>
   </view>
   <image src="input.png" mode="widthFix" id="input"></image>
 </view>

@@ -3,7 +3,7 @@
   width: 100%;
 }
 .image_wrap {
-  border: 1rpx dashed #ffcc00;
+  border: 5rpx dashed #9c9;
   padding: 10rpx;
   width: 90%;
   border-radius: 10rpx;
@@ -22,24 +22,24 @@
 }
 #upload {
   outline: none;
-  border: 5rpx dashed #ff6600;
+  border: 5rpx dashed #99cc99;
   padding: 100rpx 0;
   width: 90%;
-  background: #ffffe4;
+  background: #f2fff2;
   white-space: nowrap;
 }
 .number_wrap {
   display: flex;
-  width: 100%;
+  width: 80%;
   height: 100rpx;
-  margin: 50rpx 0;
+  margin: 50rpx auto;
   text-align: center;
 }
 #number {
   border: 1rpx solid #ddd;
   padding: 25rpx 0;
   vertical-align: middle;
-  width: 80%;
+  width: 100%;
   text-align: center;
   border-radius: 10rpx;
   margin: 0 auto;
@@ -53,7 +53,7 @@
   position: fixed;
   bottom: 10rpx;
   width: 100%;
-  font-size: 24rpx;
+  font-size: 28rpx;
   color: #ccc;
   text-align: center;
 }
